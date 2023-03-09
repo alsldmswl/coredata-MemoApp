@@ -15,3 +15,54 @@
 
   <img src = "https://user-images.githubusercontent.com/82255206/221416207-0e80bf80-56a3-4911-99c2-9a04121bb8cb.png" width="100" height="100"/> 
  
+* 기능설명
+  - [+] 버튼을 클릭하여 원하는 내용을 텍스트 뷰에 작성할 수 있습니다. 
+  - 작성완료 후 저장된 목록을 클릭하여 수정 또는 삭제할 수 있습니다.
+
+
+<img src = "./img/img1.png" width="170" height="370"/> <img src = "./img/img2.png" width="170" height="370"/> <img src = "./img/img3.png" width="170" height="370"/> <img src = "./img/img4.png" width="170" height="370"/> <img src = "./img/img5.png" width="170" height="370"/>  
+
+* 프로젝트 구조  
+
+<table>
+<tbody>
+
+<tr>
+    <td><b>ViewController.swift</b></td>
+<td>앱의 시작화면에 대한 파일입니다. 테이블 뷰에 대한 내용과 저장된 데이터를 불러오는 함수(fetchData())로 구성되어 있습니다.</td>
+</tr>
+
+<tr>
+    <td><b>memoDetailViewController.swift</b></td>
+<td>리스트를 추가, 수정, 삭제할 수 있는 디테일 화면에 대한 파일 입니다. 저장, 수정, 삭제를 위한 함수들로 구성되어 있습니다. </td>
+</tr>
+
+<tr>
+    <td><b>memoCell.swift</b></td>
+<td>테이블 뷰 셀에 대한 아울렛이 연결되어있는 파일입니다.</td>
+</tr>
+
+<tr>
+    <td><b>memoDetailViewController.xib</b></td>
+<td>디테일 화면을 구성하는 xib 파일입니다.</td>
+</tr>
+
+<tr>
+    <td><b>Main.Storyboard</b></td>
+<td>시작 화면을 구성하는 storyboard 파일입니다.</td>
+</tr>  
+
+<tr>
+    <td><b>MymemoApp.xcdatamodeld</b></td>
+<td>data model 파일입니다.</td>
+</tr>
+
+
+</tbody>
+</table>
+
+* 실행방법  
+```
+1. Clone this repository.
+2. Run Xcode and excute project.
+```
